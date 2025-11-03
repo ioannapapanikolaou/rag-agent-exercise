@@ -1,0 +1,98 @@
+{"ts": 1761936180.208107, "event": "llm_call", "provider": "ollama", "model": "llama3.2:3b", "q": "Summarise breadth observations mentioned in the letters."}
+{"ts": 1761936180.209177, "event": "rag_answer", "latency_ms": 24642.341707949527, "q": "Summarise breadth observations mentioned in the letters.", "k": 5, "used_tools": ["retriever", "ollama:llama3.2:3b"], "route": "rag+llm", "model": "llama3.2:3b"}
+{"ts": 1761936461.998867, "event": "llm_call", "provider": "ollama", "model": "llama3.2:3b", "q": "Summarise market hours for equities and FX."}
+{"ts": 1761936462.0013309, "event": "rag_answer", "latency_ms": 7534.78491702117, "q": "Summarise market hours for equities and FX.", "k": 5, "used_tools": ["retriever", "ollama:llama3.2:3b"], "route": "rag+llm", "model": "llama3.2:3b"}
+{"ts": 1761936462.0077288, "event": "price_answer", "latency_ms": 1.6985000111162663, "q": "What is the most recent close for MSFT?", "used_tools": ["prices_tool"], "route": "price"}
+{"ts": 1761936462.011035, "event": "price_answer", "latency_ms": 0.06154098082333803, "q": "Did the Q2 letter reference SPY?", "used_tools": ["prices_tool"], "route": "price"}
+{"ts": 1761936466.97469, "event": "llm_call", "provider": "ollama", "model": "llama3.2:3b", "q": "What factors were tilted towards in Q2?"}
+{"ts": 1761936466.975059, "event": "rag_answer", "latency_ms": 4961.300582974218, "q": "What factors were tilted towards in Q2?", "k": 5, "used_tools": ["retriever", "ollama:llama3.2:3b"], "route": "rag+llm", "model": "llama3.2:3b"}
+{"ts": 1761936466.978063, "event": "price_answer", "latency_ms": 0.05079200491309166, "q": "What was the last price for EURUSD?", "used_tools": ["prices_tool"], "route": "price"}
+{"ts": 1761936466.980937, "event": "price_answer", "latency_ms": 0.04924996756017208, "q": "Compare SPY performance to QQQ over the last 10 days.", "used_tools": ["prices_tool"], "route": "price"}
+{"ts": 1761936473.5617652, "event": "llm_call", "provider": "ollama", "model": "llama3.2:3b", "q": "Did we maintain a momentum tilt in Q2?"}
+{"ts": 1761936473.562193, "event": "rag_answer", "latency_ms": 6579.195416998118, "q": "Did we maintain a momentum tilt in Q2?", "k": 5, "used_tools": ["retriever", "ollama:llama3.2:3b"], "route": "rag+llm", "model": "llama3.2:3b"}
+{"ts": 1761936481.870323, "event": "llm_call", "provider": "ollama", "model": "llama3.2:3b", "q": "Summarise breadth observations mentioned in the letters."}
+{"ts": 1761936481.871125, "event": "rag_answer", "latency_ms": 8305.534042068757, "q": "Summarise breadth observations mentioned in the letters.", "k": 5, "used_tools": ["retriever", "ollama:llama3.2:3b"], "route": "rag+llm", "model": "llama3.2:3b"}
+{"ts": 1761936481.874149, "event": "price_answer", "latency_ms": 0.05283299833536148, "q": "According to the addendum, what SPY close and date should be preferred when answering 'latest' close questions?", "used_tools": ["prices_tool"], "route": "price"}
+{"ts": 1761936489.160288, "event": "llm_call", "provider": "ollama", "model": "llama3.2:3b", "q": "Which document discusses liquidity filters and the $5mm ADDV threshold?"}
+{"ts": 1761936489.1618218, "event": "rag_answer", "latency_ms": 7285.169207956642, "q": "Which document discusses liquidity filters and the $5mm ADDV threshold?", "k": 5, "used_tools": ["retriever", "ollama:llama3.2:3b"], "route": "rag+llm", "model": "llama3.2:3b"}
+{"ts": 1761936557.8836448, "event": "llm_call", "provider": "ollama", "model": "llama3.2:3b", "q": "Summarise market hours for equities and FX."}
+{"ts": 1761936557.885611, "event": "rag_answer", "latency_ms": 6596.165750059299, "q": "Summarise market hours for equities and FX.", "k": 5, "used_tools": ["retriever", "ollama:llama3.2:3b"], "route": "rag+llm", "model": "llama3.2:3b"}
+{"ts": 1761936557.89248, "event": "price_answer", "latency_ms": 1.7743329517543316, "q": "What is the most recent close for MSFT?", "used_tools": ["prices_tool"], "route": "price"}
+{"ts": 1761936557.895939, "event": "price_answer", "latency_ms": 0.053875031881034374, "q": "Did the Q2 letter reference SPY?", "used_tools": ["prices_tool"], "route": "price"}
+{"ts": 1761936563.010646, "event": "llm_call", "provider": "ollama", "model": "llama3.2:3b", "q": "What factors were tilted towards in Q2?"}
+{"ts": 1761936563.011369, "event": "rag_answer", "latency_ms": 5112.871749908663, "q": "What factors were tilted towards in Q2?", "k": 5, "used_tools": ["retriever", "ollama:llama3.2:3b"], "route": "rag+llm", "model": "llama3.2:3b"}
+{"ts": 1761936563.01636, "event": "price_answer", "latency_ms": 0.08050003089010715, "q": "What was the last price for EURUSD?", "used_tools": ["prices_tool"], "route": "price"}
+{"ts": 1761936563.0200691, "event": "price_answer", "latency_ms": 0.07095898035913706, "q": "Compare SPY performance to QQQ over the last 10 days.", "used_tools": ["prices_tool"], "route": "price"}
+{"ts": 1761936570.178522, "event": "llm_call", "provider": "ollama", "model": "llama3.2:3b", "q": "Did we maintain a momentum tilt in Q2?"}
+{"ts": 1761936570.180015, "event": "rag_answer", "latency_ms": 7157.146083074622, "q": "Did we maintain a momentum tilt in Q2?", "k": 5, "used_tools": ["retriever", "ollama:llama3.2:3b"], "route": "rag+llm", "model": "llama3.2:3b"}
+{"ts": 1761936578.712414, "event": "llm_call", "provider": "ollama", "model": "llama3.2:3b", "q": "Summarise breadth observations mentioned in the letters."}
+{"ts": 1761936578.714794, "event": "rag_answer", "latency_ms": 8529.933499987237, "q": "Summarise breadth observations mentioned in the letters.", "k": 5, "used_tools": ["retriever", "ollama:llama3.2:3b"], "route": "rag+llm", "model": "llama3.2:3b"}
+{"ts": 1761936578.720088, "event": "price_answer", "latency_ms": 0.08637504652142525, "q": "According to the addendum, what SPY close and date should be preferred when answering 'latest' close questions?", "used_tools": ["prices_tool"], "route": "price"}
+{"ts": 1761936584.762976, "event": "llm_call", "provider": "ollama", "model": "llama3.2:3b", "q": "Which document discusses liquidity filters and the $5mm ADDV threshold?"}
+{"ts": 1761936584.763287, "event": "rag_answer", "latency_ms": 6040.342833963223, "q": "Which document discusses liquidity filters and the $5mm ADDV threshold?", "k": 5, "used_tools": ["retriever", "ollama:llama3.2:3b"], "route": "rag+llm", "model": "llama3.2:3b"}
+{"ts": 1761936913.540611, "event": "price_answer", "latency_ms": 1.4835830079391599, "q": "What is the most recent close for MSFT?", "used_tools": ["prices_tool"], "route": "price"}
+{"ts": 1761936913.541541, "event": "price_answer", "latency_ms": 0.016832957044243813, "q": "Did the Q2 letter reference SPY?", "used_tools": ["prices_tool"], "route": "price"}
+{"ts": 1761936913.6050391, "event": "price_answer", "latency_ms": 0.03374996595084667, "q": "What was the last price for EURUSD?", "used_tools": ["prices_tool"], "route": "price"}
+{"ts": 1761936959.1099432, "event": "price_answer", "latency_ms": 0.6600420456379652, "q": "What is the most recent close for MSFT?", "used_tools": ["prices_tool"], "route": "price"}
+{"ts": 1761936959.110551, "event": "price_answer", "latency_ms": 0.017542042769491673, "q": "Did the Q2 letter reference SPY?", "used_tools": ["prices_tool"], "route": "price"}
+{"ts": 1761936959.1482, "event": "price_answer", "latency_ms": 0.0278339721262455, "q": "What was the last price for EURUSD?", "used_tools": ["prices_tool"], "route": "price"}
+{"ts": 1761936967.558371, "event": "price_answer", "latency_ms": 0.6452499656006694, "q": "What is the most recent close for MSFT?", "used_tools": ["prices_tool"], "route": "price"}
+{"ts": 1761936967.559028, "event": "price_answer", "latency_ms": 0.016291975043714046, "q": "Did the Q2 letter reference SPY?", "used_tools": ["prices_tool"], "route": "price"}
+{"ts": 1761936967.596664, "event": "price_answer", "latency_ms": 0.032540992833673954, "q": "What was the last price for EURUSD?", "used_tools": ["prices_tool"], "route": "price"}
+{"ts": 1761937001.66759, "event": "price_answer", "latency_ms": 0.7241669809445739, "q": "What is the most recent close for MSFT?", "used_tools": ["prices_tool"], "route": "price"}
+{"ts": 1761937001.669056, "event": "price_answer", "latency_ms": 0.01929106656461954, "q": "Did the Q2 letter reference SPY?", "used_tools": ["prices_tool"], "route": "price"}
+{"ts": 1761937001.707764, "event": "price_answer", "latency_ms": 0.030583003535866737, "q": "What was the last price for EURUSD?", "used_tools": ["prices_tool"], "route": "price"}
+{"ts": 1761937059.017945, "event": "price_answer", "latency_ms": 0.642125029116869, "q": "What is the most recent close for MSFT?", "used_tools": ["prices_tool"], "route": "price"}
+{"ts": 1761937059.019418, "event": "rag_answer", "latency_ms": 0.866499962285161, "q": "Did the Q2 letter reference SPY?", "k": 5, "used_tools": ["retriever"], "route": "rag"}
+{"ts": 1761937059.027731, "event": "price_answer", "latency_ms": 0.02762500662356615, "q": "What was the last price for EURUSD?", "used_tools": ["prices_tool"], "route": "price"}
+{"ts": 1761937110.480286, "event": "llm_call", "provider": "ollama", "model": "llama3.2:3b", "q": "Summarise market hours for equities and FX."}
+{"ts": 1761937110.483229, "event": "rag_answer", "latency_ms": 9207.522499957122, "q": "Summarise market hours for equities and FX.", "k": 5, "used_tools": ["retriever", "ollama:llama3.2:3b"], "route": "rag+llm", "model": "llama3.2:3b"}
+{"ts": 1761937110.492897, "event": "price_answer", "latency_ms": 2.4397089146077633, "q": "What is the most recent close for MSFT?", "used_tools": ["prices_tool"], "route": "price"}
+{"ts": 1761937118.115633, "event": "llm_call", "provider": "ollama", "model": "llama3.2:3b", "q": "Did the Q2 letter reference SPY?"}
+{"ts": 1761937118.116241, "event": "rag_answer", "latency_ms": 7620.35237508826, "q": "Did the Q2 letter reference SPY?", "k": 5, "used_tools": ["retriever", "ollama:llama3.2:3b"], "route": "rag+llm", "model": "llama3.2:3b"}
+{"ts": 1761937123.279436, "event": "llm_call", "provider": "ollama", "model": "llama3.2:3b", "q": "What factors were tilted towards in Q2?"}
+{"ts": 1761937123.28044, "event": "rag_answer", "latency_ms": 5159.319708007388, "q": "What factors were tilted towards in Q2?", "k": 5, "used_tools": ["retriever", "ollama:llama3.2:3b"], "route": "rag+llm", "model": "llama3.2:3b"}
+{"ts": 1761937123.285137, "event": "price_answer", "latency_ms": 0.0702079851180315, "q": "What was the last price for EURUSD?", "used_tools": ["prices_tool"], "route": "price"}
+{"ts": 1761937123.288256, "event": "price_answer", "latency_ms": 0.0814161030575633, "q": "Compare SPY performance to QQQ over the last 10 days.", "used_tools": ["prices_tool"], "route": "price"}
+{"ts": 1761937130.0601401, "event": "llm_call", "provider": "ollama", "model": "llama3.2:3b", "q": "Did we maintain a momentum tilt in Q2?"}
+{"ts": 1761937130.061229, "event": "rag_answer", "latency_ms": 6769.942666986026, "q": "Did we maintain a momentum tilt in Q2?", "k": 5, "used_tools": ["retriever", "ollama:llama3.2:3b"], "route": "rag+llm", "model": "llama3.2:3b"}
+{"ts": 1761937138.7189682, "event": "llm_call", "provider": "ollama", "model": "llama3.2:3b", "q": "Summarise breadth observations mentioned in the letters."}
+{"ts": 1761937138.719538, "event": "rag_answer", "latency_ms": 8652.784542064182, "q": "Summarise breadth observations mentioned in the letters.", "k": 5, "used_tools": ["retriever", "ollama:llama3.2:3b"], "route": "rag+llm", "model": "llama3.2:3b"}
+{"ts": 1761937138.725187, "event": "price_answer", "latency_ms": 0.07187505252659321, "q": "According to the addendum, what SPY close and date should be preferred when answering 'latest' close questions?", "used_tools": ["prices_tool"], "route": "price"}
+{"ts": 1761937145.7379498, "event": "llm_call", "provider": "ollama", "model": "llama3.2:3b", "q": "Which document discusses liquidity filters and the $5mm ADDV threshold?"}
+{"ts": 1761937145.7395918, "event": "rag_answer", "latency_ms": 7010.9661660389975, "q": "Which document discusses liquidity filters and the $5mm ADDV threshold?", "k": 5, "used_tools": ["retriever", "ollama:llama3.2:3b"], "route": "rag+llm", "model": "llama3.2:3b"}
+{"ts": 1762023338.874739, "event": "llm_call", "provider": "ollama", "model": "llama3.2:3b", "q": "Summarise market hours for equities and FX."}
+{"ts": 1762023338.8767009, "event": "rag_answer", "latency_ms": 12861.377334105782, "q": "Summarise market hours for equities and FX.", "k": 5, "used_tools": ["retriever", "ollama:llama3.2:3b"], "route": "rag+llm", "model": "llama3.2:3b"}
+{"ts": 1762023338.894284, "event": "price_answer", "latency_ms": 2.1457920083776116, "q": "What is the most recent close for MSFT?", "used_tools": ["prices_tool"], "route": "price"}
+{"ts": 1762023344.5966258, "event": "llm_call", "provider": "ollama", "model": "llama3.2:3b", "q": "Did the Q2 letter reference SPY?"}
+{"ts": 1762023344.598964, "event": "rag_answer", "latency_ms": 5702.35495804809, "q": "Did the Q2 letter reference SPY?", "k": 5, "used_tools": ["retriever", "ollama:llama3.2:3b"], "route": "rag+llm", "model": "llama3.2:3b"}
+{"ts": 1762023349.588107, "event": "llm_call", "provider": "ollama", "model": "llama3.2:3b", "q": "What factors were tilted towards in Q2?"}
+{"ts": 1762023349.588675, "event": "rag_answer", "latency_ms": 4985.347250010818, "q": "What factors were tilted towards in Q2?", "k": 5, "used_tools": ["retriever", "ollama:llama3.2:3b"], "route": "rag+llm", "model": "llama3.2:3b"}
+{"ts": 1762023349.5928981, "event": "price_answer", "latency_ms": 0.06600003689527512, "q": "What was the last price for EURUSD?", "used_tools": ["prices_tool"], "route": "price"}
+{"ts": 1762023349.595875, "event": "price_answer", "latency_ms": 0.060916063375771046, "q": "Compare SPY performance to QQQ over the last 10 days.", "used_tools": ["prices_tool"], "route": "price"}
+{"ts": 1762023355.271847, "event": "llm_call", "provider": "ollama", "model": "llama3.2:3b", "q": "Did we maintain a momentum tilt in Q2?"}
+{"ts": 1762023355.2728572, "event": "rag_answer", "latency_ms": 5673.916959087364, "q": "Did we maintain a momentum tilt in Q2?", "k": 5, "used_tools": ["retriever", "ollama:llama3.2:3b"], "route": "rag+llm", "model": "llama3.2:3b"}
+{"ts": 1762023365.783704, "event": "llm_call", "provider": "ollama", "model": "llama3.2:3b", "q": "Summarise breadth observations mentioned in the letters."}
+{"ts": 1762023365.78454, "event": "rag_answer", "latency_ms": 10506.89608301036, "q": "Summarise breadth observations mentioned in the letters.", "k": 5, "used_tools": ["retriever", "ollama:llama3.2:3b"], "route": "rag+llm", "model": "llama3.2:3b"}
+{"ts": 1762023365.788822, "event": "price_answer", "latency_ms": 0.07745798211544752, "q": "According to the addendum, what SPY close and date should be preferred when answering 'latest' close questions?", "used_tools": ["prices_tool"], "route": "price"}
+{"ts": 1762023370.348224, "event": "llm_call", "provider": "ollama", "model": "llama3.2:3b", "q": "Which document discusses liquidity filters and the $5mm ADDV threshold?"}
+{"ts": 1762023370.3492281, "event": "rag_answer", "latency_ms": 4557.6225409749895, "q": "Which document discusses liquidity filters and the $5mm ADDV threshold?", "k": 5, "used_tools": ["retriever", "ollama:llama3.2:3b"], "route": "rag+llm", "model": "llama3.2:3b"}
+{"ts": 1762184763.1615329, "event": "llm_call", "provider": "ollama", "model": "llama3.2:3b", "q": "Summarise market hours for equities and FX."}
+{"ts": 1762184763.163114, "event": "rag_answer", "latency_ms": 13504.15404199157, "q": "Summarise market hours for equities and FX.", "k": 5, "used_tools": ["retriever", "ollama:llama3.2:3b"], "route": "rag+llm", "model": "llama3.2:3b"}
+{"ts": 1762184763.169923, "event": "price_answer", "latency_ms": 1.8564159981906414, "q": "What is the most recent close for MSFT?", "used_tools": ["prices_tool"], "route": "price"}
+{"ts": 1762184769.1002119, "event": "llm_call", "provider": "ollama", "model": "llama3.2:3b", "q": "Did the Q2 letter reference SPY?"}
+{"ts": 1762184769.101774, "event": "rag_answer", "latency_ms": 5929.700332926586, "q": "Did the Q2 letter reference SPY?", "k": 5, "used_tools": ["retriever", "ollama:llama3.2:3b"], "route": "rag+llm", "model": "llama3.2:3b"}
+{"ts": 1762184774.1060631, "event": "llm_call", "provider": "ollama", "model": "llama3.2:3b", "q": "What factors were tilted towards in Q2?"}
+{"ts": 1762184774.1073868, "event": "rag_answer", "latency_ms": 5001.063667004928, "q": "What factors were tilted towards in Q2?", "k": 5, "used_tools": ["retriever", "ollama:llama3.2:3b"], "route": "rag+llm", "model": "llama3.2:3b"}
+{"ts": 1762184774.1174889, "event": "price_answer", "latency_ms": 1.6353330574929714, "q": "What was the last price for EURUSD?", "used_tools": ["prices_tool"], "route": "price"}
+{"ts": 1762184774.121328, "event": "price_answer", "latency_ms": 0.08566700853407383, "q": "Compare SPY performance to QQQ over the last 10 days.", "used_tools": ["prices_tool"], "route": "price"}
+{"ts": 1762184779.903027, "event": "llm_call", "provider": "ollama", "model": "llama3.2:3b", "q": "Did we maintain a momentum tilt in Q2?"}
+{"ts": 1762184779.904207, "event": "rag_answer", "latency_ms": 5780.772124999203, "q": "Did we maintain a momentum tilt in Q2?", "k": 5, "used_tools": ["retriever", "ollama:llama3.2:3b"], "route": "rag+llm", "model": "llama3.2:3b"}
+{"ts": 1762184790.323731, "event": "llm_call", "provider": "ollama", "model": "llama3.2:3b", "q": "Summarise breadth observations mentioned in the letters."}
+{"ts": 1762184790.3246982, "event": "rag_answer", "latency_ms": 10417.578916996717, "q": "Summarise breadth observations mentioned in the letters.", "k": 5, "used_tools": ["retriever", "ollama:llama3.2:3b"], "route": "rag+llm", "model": "llama3.2:3b"}
+{"ts": 1762184790.334015, "event": "price_answer", "latency_ms": 0.17433403991162777, "q": "According to the addendum, what SPY close and date should be preferred when answering 'latest' close questions?", "used_tools": ["prices_tool"], "route": "price"}
+{"ts": 1762184796.531871, "event": "llm_call", "provider": "ollama", "model": "llama3.2:3b", "q": "Which document discusses liquidity filters and the $5mm ADDV threshold?"}
+{"ts": 1762184796.5322502, "event": "rag_answer", "latency_ms": 6195.026416913606, "q": "Which document discusses liquidity filters and the $5mm ADDV threshold?", "k": 5, "used_tools": ["retriever", "ollama:llama3.2:3b"], "route": "rag+llm", "model": "llama3.2:3b"}
+{"ts": 1762184813.940696, "event": "price_answer", "latency_ms": 1.0999590158462524, "q": "What is the most recent close for MSFT?", "used_tools": ["prices_tool"], "route": "price"}
+{"ts": 1762184813.9422631, "event": "rag_answer", "latency_ms": 0.9545409120619297, "q": "Did the Q2 letter reference SPY?", "k": 5, "used_tools": ["retriever"], "route": "rag"}
+{"ts": 1762184813.952331, "event": "price_answer", "latency_ms": 0.036708079278469086, "q": "What was the last price for EURUSD?", "used_tools": ["prices_tool"], "route": "price"}
