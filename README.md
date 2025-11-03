@@ -4,7 +4,7 @@ A small **Retrieval-Augmented Generation (RAG)** service that answers questions 
 
 ---
 
-## Overviewoa
+## Overview
 
 This system ingests the following sources:
 
